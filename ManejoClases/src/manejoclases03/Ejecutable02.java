@@ -21,6 +21,16 @@ public class Ejecutable02 {
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
         
+        /*
+        El System nos imprime la variable h1.obtenerNombre(); el ".obtenerNombre() 
+        recibe el valor que le dimos en .establecerNombre(), en este caso le 
+        dimos el valor tipo cadena "Vaca Ortiz", y los otros dos 
+        obtener como no establecimos un valor anteriormente por defecto lo 
+        inicializa con cero, y lo que esta comentado lo usamos con el printf le 
+        decimos que primero nos imprima el tipo cadena, entero y al final el 
+        decimal con 2 num despues del coma y por ultimo un salto de linea.       
+        */
+        
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
         /*
